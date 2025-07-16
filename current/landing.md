@@ -27,11 +27,3 @@ permalink: /current/ # permalink for phase landing page must be set in front mat
         </div>
     </div>
 </section>
-<section class="container py-3">
-    <div class="row">
-        <div class="link-container">
-            <a class="link-button mx-1" href="{{ 'current\_posts\2023-08-04-yihan-chinese-screen.md' | relative_url}}
-            "><em>2023 Blog Posts</em></a>
-        </div>
-    </div>
-</section>
