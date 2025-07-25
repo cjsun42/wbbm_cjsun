@@ -2,8 +2,8 @@
 
 title: Who Built Bryn Mawr?
 
-url: https://cjsun42.github.io # https://wbbm.digitalprojects.brynmawr.edu
-baseurl: /wbbm_cjsun # /dev-2023
+url: http://digbmc.github.io # https://wbbm.digitalprojects.brynmawr.edu
+baseurl: /wbbm # /dev-2023
 
 permalink: pretty
 
@@ -20,3 +20,6 @@ collections:
 
 exclude:
  - README.md
+
+plugins:
+- jekyll-seo-tag

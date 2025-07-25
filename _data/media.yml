@@ -531,3 +531,54 @@
   description: Book cover
   source: Internet Archive
   accession_number:  
+
+- item_id: media_055
+  item_type: image
+  item_location: /assets/images/2025_img/media_055.png
+  title: Stamp and annual report of the Chinese Scholarship Committee
+  creator: Chloe Sun
+  date: 2025
+  description: A photograph of the Chinese Scholarship Committee stamp and annual report letterhead.
+  accession_number:  
+
+- item_id: media_056
+  item_type: image
+  item_location: /assets/images/2025_img/media_056.png 
+  title: A Chinese Scholarship
+  creator: 
+  date: 1917
+  description: Lucy Martin Donnelly proposed a scholarship for Chinese students in the January 1917 Bryn Mawr Alumnae Quarterly.
+  source: Internet Archives
+  accession_number:  
+
+- item_id: media_057
+  item_type: image
+  item_location: /assets/images/2025_img/media_055.png
+  title: Chinese Scholars
+  creator: 
+  date: 1960
+  description: This photograph depicts May Jen, Julia Chang (both Class of 1960), Shirley Seung (Class of 1962) and Amy Cheng (Class of 1961) standing together outside of a campus building.
+  source: Bryn Mawr Special Collections
+  accession_number: 
+
+- item_id: media_058
+  item_type: image
+  item_location: /assets/images/2025_img/media_058.jpg 
+  title: Snapshot of donor cards during physical processing.
+  creator: Paulina Phan
+  date: 2025
+  description: A photo of the donor card stacks during physical processing.
+  source: Paulina Phan
+  accession_number:  
+
+- item_id: media_059
+  item_type: image
+  item_location: /assets/images/2025_img/media_059.jpg 
+  title: Processed Collection
+  creator: Chloe Sun
+  date: 2025
+  description: The final processed Chinese Scholarship collection.
+  source: Chloe Sun
+  accession_number:  
+
+

@@ -1,5 +1,5 @@
 ---
-title: Who Built Bryn Mawr? 2023-2026
+title: "Disoriented: The First Asian Students"
 layout: page
 phase: P4
 permalink: /current/ # permalink for phase landing page must be set in front matter
@@ -23,7 +23,14 @@ permalink: /current/ # permalink for phase landing page must be set in front mat
 <section class="container py-3">
     <div class="row">
         <div class="link-container">
-            <a class="link-button mx-1" href="{{ '/current/disoriented/' | relative_url}}"><em>Disoriented: The First Asian Students, 1893-1924</em></a>
+            <a class="link-button mx-1" href="{{ '/current/disoriented/' | relative_url}}"><em>Disoriented: The First Asian Students, 1893-1924</em> Exhibit</a>
+        </div>
+    </div>
+</section>
+<section class="container py-3">
+    <div class="row">
+        <div class="link-container">
+            <a class="link-button mx-1 mb-3" href="{{ '/current/2025/' | relative_url}}"><em>Reoriented: Processing the Chinese Scholarship Collection</em> Blog</a>
         </div>
     </div>
 </section>

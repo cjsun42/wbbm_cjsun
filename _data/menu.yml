@@ -1,8 +1,10 @@
 - phase: P4
   navigation:
-    - title: Disoriented
+    - title: "2023 Exhibit"
       url: /current/disoriented/
-    - title: "2024"
+    - title: "2024 Timeline"
       url: /current/2024/
-    - title: Team
+    - title: "2025 Blog"
+      url: /current/2025/
+    - title: "Team"
       url: /current/team/

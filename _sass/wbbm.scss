@@ -52,6 +52,12 @@ h1 {
     filter: invert(100%);
 }
 
+/* change footer wbbm logo on hover*/
+
+#footer-wbbm-logo:hover {
+    filter: sepia(100%) saturate(2000%) hue-rotate(225deg) brightness(120%);
+}
+
 /* links that look like buttons */
 
 .link-container {
@@ -229,30 +235,30 @@ blockquote {
 .carousel {
     margin-bottom: 1.5em;
     background-color: black;
-  }
+}
 
-  .carousel-control-next, .carousel-control-prev {
+.carousel-control-next, .carousel-control-prev {
     background-color: transparent !important;
-  }
+}
 
-  .carousel-indicators {
+.carousel-indicators {
     position: absolute;
     right: 0;
     bottom: -20px;
     left: 0;
     margin: 0 !important;
-  }
+}
 
-  .carousel-item {
+.carousel-item {
     img {
       margin: 0;
       height: 40vh;
       object-fit: cover;
       object-position: 50% 50%;
     }
-  }
+}
 
-  .carousel-caption {
+.carousel-caption {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -265,4 +271,123 @@ blockquote {
     background-color: rgba(0, 0, 0, 0.499);
     text-align: center;
     display: block !important;
+}
+
+/* ----- Long Button for Finding Aid ----- */
+
+.long-btn {
+    width: 100%;
+    padding: 1rem;
+}
+
+.long-btn:hover {
+    background-color: #d9e4f5;
+    color: #1D67E5;
+}
+
+/* ----- Student Profiles ----- */
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.profile {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin: .5rem;
+}
+
+.profile:hover {
+    box-shadow: 0 8px 12px rgba(0,0,0,0.4);
+}
+
+.profile-container {
+    padding: 2px 16px;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+@media (max-width: 800px) {
+  #about_student_archivists {
+    flex: 100%;
   }
+  .profile {
+    flex: 30%;
+  }
+}
+
+/* ----- Student Profiles: Pop-up Modal for About ----- */
+
+button {
+    background-color: #1D67E5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.about-btn {
+    width: 100%;
+}
+
+.about-btn:hover {
+    background-color: #d9e4f5;
+    color: #1D67E5;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    position: relative;
+    background-color: #353a40;
+    color: white;
+    border-radius: 10px;
+    margin: 2% auto;
+    align-content: center;
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+.modal-header {
+    padding: 1.3rem 1rem 1rem 1.5rem;
+}
+
+.modal-body {
+    padding: 1.5rem;
+    text-align: left;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #1D67E5;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
